@@ -1,2 +1,2 @@
-# giftgpt
-Guhoo's GiftGPT project is a web app that uses AI/LLMs to generate gift ideas for users, to strengthen relationships.
+# ABE
+ABE (Artificial intelligence Benefits Explorer) is an AI chatbot that uses LLM and AI technologies to help people in need.
