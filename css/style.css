@@ -134,13 +134,13 @@ img {
 	text-align: center;
 }
 #navigation li a {
-	color: #818181;
+	color: #fff;
 	font-size: 15px;
 	line-height: 30px;
 	text-decoration: none;
 }
 #navigation li a:hover {
-	color: #fff;
+	color: #f99600;
 }
 #navigation li.active a {
 	color: #f99600;
