@@ -9,37 +9,42 @@
 
 <url>
   <loc>http://abe.guhoo.com/</loc>
-  <lastmod>2023-10-24T03:55:00+00:00</lastmod>
+  <lastmod>2023-10-24T21:42:27+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://abe.guhoo.com/index.html</loc>
-  <lastmod>2023-10-24T03:55:00+00:00</lastmod>
+  <lastmod>2023-10-24T21:42:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://abe.guhoo.com/main.html</loc>
-  <lastmod>2023-10-24T03:59:04+00:00</lastmod>
+  <lastmod>2023-10-24T21:42:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://abe.guhoo.com/about.html</loc>
-  <lastmod>2023-10-24T03:55:00+00:00</lastmod>
+  <lastmod>2023-10-24T21:42:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://abe.guhoo.com/contact.html</loc>
-  <lastmod>2023-10-24T03:55:00+00:00</lastmod>
+  <lastmod>2023-10-24T21:42:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://abe.guhoo.com/updates.html</loc>
-  <lastmod>2023-10-24T03:55:00+00:00</lastmod>
+  <lastmod>2023-10-24T21:42:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://abe.guhoo.com/post.html</loc>
-  <lastmod>2023-10-24T03:57:19+00:00</lastmod>
+  <loc>http://abe.guhoo.com/updates/post0.html</loc>
+  <lastmod>2023-10-24T21:42:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://abe.guhoo.com/updates/post1.html</loc>
+  <lastmod>2023-10-24T21:42:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
