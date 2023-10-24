@@ -1,3 +1,46 @@
+/*botpress API*/
+/*body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	/*
+	color: white;
+	background-color: #000000; 
+  }*/
+
+  .center-div {
+	width: 50vw;
+	height: 80vh;
+	background-color: #333A55;
+	border-radius: 15px;
+	padding: 5px;
+	box-sizing: border-box;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+	.center-div {
+	  height: 40vh;
+	  width: 80vw;
+	  background-color: #333A55;
+	  border-radius: 15px;
+	  padding: 5px;
+	  box-sizing: border-box;
+	  color: white;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  text-align: center;
+	}
+  }
+
+
 /* Website template by freewebsitetemplates.com */
 @font-face {
 	font-family: 'OpenSans';
