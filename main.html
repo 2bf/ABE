@@ -33,36 +33,67 @@
 			</ul>
 		</div>
 	</div>
-	<div id="contents">
-		<div class="features">
+	<!--
+	<div id="contents" style="margin-bottom: 25px;">
+		<div class="features" style="margin-bottom: 25px;">
 			<h1>Use ABE</h1>
 			<p>
-				You can use ABE by clicking the button on the bottom right! [Add more content here]
+				You can use ABE by clicking the button on the bottom right! 
 			</p>
-			<div>
-				<img src="https://ik.imagekit.io/guhoo/ABE-photos/abe-white-blueback.png?updatedAt=1694833480889" style="width:250px; height:250px" alt="Img">
-				<h2>Header</h2>
-				<p>
-					Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text.
-				</p>
-				<h2>Header</h2>
-				<p>
-					Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text.
-				</p>
-			</div>
-			<div>
-				<img src="https://ik.imagekit.io/guhoo/ABE-photos/abe-white-blueback.png?updatedAt=1694833480889" style="width:250px; height:250px" alt="Img">
-				<h2>Header</h2>
-				<p>
-					Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text.
-				</p>
-				<h2>Header</h2>
-				<p>
-					Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text. Replace this with other text.
-				</p>
-			</div>
+
+			<p>
+				Our tool has been made simple and easy to use. With the help of artificial intelligence, you can talk to our benefits finder just like you can with a person over the counter.
+			</p>
 		</div>
 	</div>
+	-->
+
+	<div id="features">
+		<p></p><br>
+	</div>
+
+	<div>
+      <div class="absolute inset-4 ">
+        <div
+          class="center-div relative h-full w-full overflow-clip rounded-md border border-zinc-200 bg-white p-2 px-0 py-0" style="margin: 0 auto"
+        >
+          <iframe
+            style="border: none;"
+            srcdoc="<body><script src='https://cdn.botpress.cloud/webchat/v0/inject.js'></script>
+            <script>
+              window.botpressWebChat.init({
+                  'composerPlaceholder': 'Send a message!',
+                  'botConversationDescription': 'ABE (AI Benefits Explorer) helps you find personalized benefits instantly.',
+                  'botName': 'ABE',
+                  'botId': '8e40a977-a88d-426f-bbf0-d84028624eb3',
+                  'hostUrl': 'https://cdn.botpress.cloud/webchat/v0',
+                  'messagingUrl': 'https://messaging.botpress.cloud',
+                  'clientId': '8e40a977-a88d-426f-bbf0-d84028624eb3',
+                  'enableConversationDeletion': true,
+                  'showPoweredBy': false,
+                  'className': 'webchatIframe',
+                  'containerWidth': '100%25',
+                  'layoutWidth': '100%25',
+                  'hideWidget': true,
+                  'showCloseButton': false,
+                  'disableAnimations': true,
+                  'closeOnEscape': false,
+                  'showConversationsButton': false,
+                  'enableTranscriptDownload': false,
+                  'stylesheet':'https://webchat-styler-css.botpress.app/prod/code/002e1410-a81c-44c6-85df-e9f5c6031f55/v2142/style.css'
+                  
+              });
+            window.botpressWebChat.onEvent(function () { window.botpressWebChat.sendEvent({ type: 'show' }) }, ['LIFECYCLE.LOADED']);
+            </script></body>"
+            width="100%"
+            height="100%"
+          ></iframe>
+	</div>
+
+	<div id="features">
+		<p></p><br><br><br>
+	</div>
+
 	<div id="footer">
 		<div class="clearfix">
 			<!--
@@ -76,7 +107,7 @@
 			<p>	
 				Copyright © 2023 Chiming Wang, Erin Cai, Frankie Chong. All Rights Reserved.
 				<br>
-				Powered by GPT-3.5. Not for commercial use.
+				Powered by GPT-3.5 Turbo. Not for commercial use.
 			</p>
 		</div>
 	</div>
