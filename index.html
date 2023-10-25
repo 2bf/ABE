@@ -14,13 +14,15 @@
 	<meta name="generator" content="ABE">
 </head>
 <body>
+	<!--
 	<div id="header">
 		<div>
-			<a href="./" style= "text-decoration:none;"><img src="https://ik.imagekit.io/guhoo/ABE-photos/abe-white-transparent.png?updatedAt=1694872745386" style="width:100px; height:100px"> </a>
+			<a href="./" style= "text-decoration:none;"><img src="https://ik.imagekit.io/guhoo/ABE/abe-notext-white-transparent.png?updatedAt=1698196737732" style="width:100px; height:100px"> </a>
 			<!--
-			<div class="logo">
-				<a href="index.html"><h1>ABE</h1></a>
-			</div>-->
+			<div class="logo" style="color:#fff">
+				<a href="./" style="text-decoration:none; color:#fff"><h1>ABE</h1></a>
+			</div>
+			
 			<ul id="navigation">
 				<li class="active">
 					<a href="./">Home</a>
@@ -40,6 +42,29 @@
 			</ul>
 		</div>
 	</div>
+	-->
+	<div class="navbar">
+		<div class="navbar-logo">
+		  <img src="https://ik.imagekit.io/guhoo/ABE-photos/abe-white-transparent.png?updatedAt=1694872745386" alt="Logo">
+		</div>
+		<a href="./" class="active">Home</a>
+		<a href="main.html">Use</a>
+		<a href="about.html">About</a>
+		<a href="contact.html">Contact</a>
+		<a href="updates.html">Updates</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+	
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myNavbar");
+			if (x.className === "navbar") {
+				x.className += " responsive";
+			} else {
+				x.className = "navbar";
+			}
+		}
+	</script>
 	<!--
 	<div id="adbox">
 		<div class="clearfix">
