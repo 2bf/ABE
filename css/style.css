@@ -1,3 +1,70 @@
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-color: #333A55;
+	padding: 10px;
+  }
+  
+  .navbar-logo img {
+	max-width: 100px; /* Adjust the width as needed */
+	margin-right: 20px;
+  }
+  
+  .navbar a {
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  .navbar a.active {
+	color: #f99600;
+  }
+  
+  .navbar a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  .navbar a.icon {
+	display: none;
+  }
+  
+  @media screen and (max-width: 800px) {
+	.navbar a:not(:first-child) {
+	  display: none;
+	}
+	.navbar a.icon {
+	  display: block;
+	  position: absolute;
+	  right: 10px;
+	}
+  }
+  
+  @media screen and (max-width: 800px) {
+	.navbar.responsive {
+	  position: relative;
+	}
+	.navbar.responsive a.icon {
+	  position: absolute;
+	  right: 10px;
+	  top: 0;
+	}
+	.navbar.responsive a {
+	  display: block;
+	  text-align: center;
+	}
+  }
+  
+  
+  
+
+
+
+
 /*botpress API*/
 /*body {
 	display: flex;
@@ -91,10 +158,10 @@ img {
 #header {
 	background-color: #333a55;
 	border-bottom: 1px solid #333a55;
-	padding: 27px 0;
+	padding: 5px 0;
 }
 #header > div, #footer > div {
-	width: 60%;
+	width: 80%;
 	margin: 0 auto;
 	padding: 0 20px;
 }
@@ -105,7 +172,7 @@ img {
 }
 #header .logo a {
 	background: url(../images/logo.png) no-repeat center top;
-	color: #000;
+	color: #fff;
 	display: block;
 	font: 15px/30px 'Play';
 	height: 50px;
@@ -114,13 +181,14 @@ img {
 	text-decoration: none;
 	text-transform: uppercase;
 }
+
 /** Navigation **/
 #navigation {
 	display: inline-block;
 	list-style: none;
-	line-height: 100px;
+	line-height: 30px;
 	margin: 0;
-	padding: 0;
+	padding: 30px;
 }
 #navigation ul {
 	display: inline-block;
@@ -144,49 +212,6 @@ img {
 }
 #navigation li.active a {
 	color: #f99600;
-}
-#adbox {
-	background: url(../images/bg-adbox.jpg) repeat-x left top;
-	height: 380px;
-	padding: 60px 0;
-}
-#adbox > div {
-	width: 800px;
-	margin: 0 auto;
-	padding: 0 80px;
-}
-#adbox > div img {
-	float: right;
-	margin-left: 60px;
-}
-#adbox h1, #adbox h2 {
-	color: #2c2c2c;
-	font-size: 60px;
-	line-height: 60px;
-	margin: 0;
-	text-transform: uppercase;
-}
-#adbox h2 {
-	font-size: 30px;
-	line-height: 36px;
-	text-transform: none;
-}
-#adbox p {
-	font-size: 16px;
-	line-height: 24px;
-	margin: 0;
-}
-#adbox p span {
-	display: block;
-	font-size: 12px;
-	width: 360px;
-	padding: 24px 0;
-	text-align: center;
-}
-#adbox p span b {
-	font-weight: normal;
-	display: block;
-	width: 256px;
 }
 /*------------------------------ CONTENTS ------------------------------*/
 #contents {
