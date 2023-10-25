@@ -346,6 +346,7 @@ p a {
 	padding-top: 12px;
 }
 #about {
+	width: 100%;
 	margin: 0 auto;
 }
 #about h1, .section h1 {
