@@ -94,7 +94,7 @@ img {
 	padding: 27px 0;
 }
 #header > div, #footer > div {
-	width: 920px;
+	width: 60%;
 	margin: 0 auto;
 	padding: 0 20px;
 }
@@ -339,7 +339,7 @@ p a {
 	text-decoration: none;
 }
 .post {
-	width: 785px;
+	width: 75%;
 	margin: 0 auto;
 }
 .post h1 {
