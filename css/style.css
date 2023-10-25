@@ -134,7 +134,7 @@ img {
 	text-align: center;
 }
 #navigation li a {
-	color: #fff;
+	color: #ffffff;
 	font-size: 15px;
 	line-height: 30px;
 	text-decoration: none;
@@ -346,7 +346,6 @@ p a {
 	padding-top: 12px;
 }
 #about {
-	width: 740px;
 	margin: 0 auto;
 }
 #about h1, .section h1 {
