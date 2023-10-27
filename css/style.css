@@ -131,7 +131,7 @@ body {
 img {
 	border: 0;
 }
-.clearfix:after, #contents:after {
+.clearfix:after, #contents:after, #contentsnews:after, #contentsabout:after { /*when scaling, doesnt go down into footer*/
 	clear:both;
 	content:"";
 	display:block;
@@ -213,13 +213,52 @@ img {
 #navigation li.active a {
 	color: #f99600;
 }
+
+/* styles for updates page */
+#contentsnews {
+	min-height: 510px;
+	width: 600px;
+	margin: 0 auto;
+	padding: 54px 40px;
+}
+/* CSS media query to apply different styles for screens smaller than 768px (common breakpoint for tablets) */
+@media screen and (max-width: 1400px) {
+	#contentsnews {
+	  width: 80%; /* or any percentage/ratio that seems appropriate for your design on mobile devices */
+	  /* possibly other responsive adjustments */
+	}
+}
+
+#contentsabout {
+	min-height: 510px;
+	width: 1300px;
+	margin: 0 auto;
+	padding: 54px 40px;
+}
+/* CSS media query to apply different styles for screens smaller than 768px (common breakpoint for tablets) */
+@media screen and (max-width: 1400px) {
+	#contentsabout {
+	  width: 80%; /* or any percentage/ratio that seems appropriate for your design on mobile devices */
+	  /* possibly other responsive adjustments */
+	}
+}
+
 /*------------------------------ CONTENTS ------------------------------*/
+
 #contents {
 	min-height: 510px;
 	width: 880px;
 	margin: 0 auto;
 	padding: 54px 40px;
 }
+/* CSS media query to apply different styles for screens smaller than 768px (common breakpoint for tablets) */
+@media screen and (max-width: 800px) {
+	#contents {
+	  width: 80%; /* or any percentage/ratio that seems appropriate for your design on mobile devices */
+	  /* possibly other responsive adjustments */
+	}
+}
+
 h1 {
 	color: #3e3e3e;
 	font-size: 30px;
@@ -316,6 +355,15 @@ p a {
 	display: block;
 	font-size: 12px;
 }
+
+/* CSS media query to apply different styles for screens smaller than 768px (common breakpoint for tablets) */
+@media screen and (max-width: 768px) {
+	.main {
+	  width: 80%; /* or any percentage/ratio that seems appropriate for your design on mobile devices */
+	  /* possibly other responsive adjustments */
+	}
+}
+
 /** sidebar **/
 .sidebar {
 	float: left;
@@ -371,18 +419,36 @@ p a {
 	padding-top: 12px;
 }
 #about {
-	width: 100%;
+	width: 65%;
 	margin: 0 auto;
 }
 #about h1, .section h1 {
 	border-bottom: 1px solid #e0e0e0;
 	padding-bottom: 12px;
 }
+
+/* CSS media query to apply different styles for screens smaller than 768px (common breakpoint for tablets) */
+@media screen and (max-width: 900px) {
+	#about {
+	  width: 100%; /* or any percentage/ratio that seems appropriate for your design on mobile devices */
+	  /* possibly other responsive adjustments */
+	}
+}
+
 .section {
 	float: left;
 	width: 390px;
 	margin-right: 50px;
 }
+
+/* CSS media query to apply different styles for screens smaller than 768px (common breakpoint for tablets) */
+@media screen and (max-width: 900px) {
+	.section {
+	  width: 100%; /* or any percentage/ratio that seems appropriate for your design on mobile devices */
+	  /* possibly other responsive adjustments */
+	}
+}
+
 .section h1 {
 	margin-bottom: 18px;
 }
