@@ -100,23 +100,7 @@
   }
   */
 
-  @media only screen and (max-width: 1500px) and (min-width:1000px){
-	.center-div {
-	  height: 80vh;
-	  width: 60vw;
-	  background-color: #333A55;
-	  border-radius: 15px;
-	  padding: 5px;
-	  box-sizing: border-box;
-	  color: white;
-	  display: flex;
-	  justify-content: center;
-	  align-items: center;
-	  text-align: center;
-	}
-  }
-
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1450px) {
 	.center-div {
 	  height: 90vh;
 	  width: 80vw;
