@@ -9,32 +9,47 @@
 
 <url>
   <loc>https://abeai.net/</loc>
-  <lastmod>2023-10-27T03:31:31+00:00</lastmod>
+  <lastmod>2023-11-19T03:06:34+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://abeai.net/about.html</loc>
-  <lastmod>2023-10-27T03:31:31+00:00</lastmod>
+  <lastmod>2023-11-19T03:06:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://abeai.net/contact.html</loc>
-  <lastmod>2023-10-27T03:31:31+00:00</lastmod>
+  <lastmod>2023-11-19T03:06:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://abeai.net/updates.html</loc>
-  <lastmod>2023-10-27T03:31:31+00:00</lastmod>
+  <lastmod>2023-11-19T03:06:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://abeai.net/updates/post1.html</loc>
-  <lastmod>2023-10-27T03:31:31+00:00</lastmod>
+  <loc>https://abeai.net/video.html</loc>
+  <lastmod>2023-11-19T03:06:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://abeai.net/updates/2.html</loc>
+  <lastmod>2023-11-19T03:06:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://abeai.net/updates/1.html</loc>
+  <lastmod>2023-11-19T03:06:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://abeai.net/updates/post0.html</loc>
-  <lastmod>2023-10-27T03:31:31+00:00</lastmod>
+  <loc>https://abeai.net/updates/0.html</loc>
+  <lastmod>2023-11-19T03:06:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://abeai.net/languages.html</loc>
+  <lastmod>2023-11-19T03:06:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
