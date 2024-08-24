@@ -25,27 +25,27 @@
 	<link rel="icon" type="image/png" href="https://ik.imagekit.io/guhoo/ABE/abe-notext-blue.png?updatedAt=1698804726017">
 </head>
 <body>
-	<div class="navbar" id="myNavbar">
-		<div class="navbar-logo">
-		  <img src="https://ik.imagekit.io/guhoo/ABE-photos/abe-white-transparent.png?updatedAt=1694872745386" alt="Logo">
-		</div>
-		<a href="./">Home</a>
-		<a href="about.html">About</a>
-		<a href="contact.html" class="active">Contact</a>
-		<a href="updates.html">Updates</a>
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-	</div>
+	<nav class="navbar">
+        <div class="brand-section">
+            <img src="https://ik.imagekit.io/guhoo/ABE-photos/abe-white-transparent-cropped" alt="Logo" class="logo">
+        </div>
+        <div class="toggle-button" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="navbar-links" id="navbar-links">
+            <ul>
+                <li><a href="./">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="updates.html">Updates</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <script src="nav1.js"></script>
+
 	
-	<script>
-		function myFunction() {
-			var x = document.getElementById("myNavbar");
-			if (x.className === "navbar") {
-				x.className += " responsive";
-			} else {
-				x.className = "navbar";
-			}
-		}
-	</script>
 	<div id="contents">
 		<div class="section">
 			<h1><strong>ABE - Contact Us</strong></h1>
@@ -54,6 +54,13 @@
 				<br><br>
 				We may take some time to respond to you.
 			</p>
+			<p></p>
+			<p>
+
+			</p>
+			
+			<h3>Please contact us at:</h3>
+			<h2>chiming@guhoo.com</h2>
 			<!--
 			<form action="index.html" method="post" class="message">
 				<input type="text" value="Name" onFocus="this.select();" onMouseOut="javascript:return false;"/>
@@ -64,11 +71,12 @@
 			</form>
 			-->
 		</div>
+		<!-- this section is not suitable for mobile browsers
 		<div class="section contact">
 			<p>
 				For inquiries please email us: <span><a href="mailto:chiming@guhoo.com">chiming@guhoo.com</a></span>
 			</p>
-		</div>
+		</div> -->
 	</div>
 	<div id="footer">
 		<div class="clearfix">
