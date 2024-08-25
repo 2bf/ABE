@@ -14,27 +14,25 @@
 	<link rel="icon" type="image/png" href="https://ik.imagekit.io/guhoo/ABE/abe-notext-blue.png?updatedAt=1698804726017">
 </head>
 <body>
-	<div class="navbar" id="myNavbar">
-		<div class="navbar-logo">
-		  <img src="https://ik.imagekit.io/guhoo/ABE-photos/abe-white-transparent.png?updatedAt=1694872745386" alt="Logo">
-		</div>
-		<a href="../">Home</a>
-		<a href="../about.html">About</a>
-		<a href="../contact.html">Contact</a>
-		<a href="../updates.html" class="active">Updates</a>
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-	</div>
-	
-	<script>
-		function myFunction() {
-			var x = document.getElementById("myNavbar");
-			if (x.className === "navbar") {
-				x.className += " responsive";
-			} else {
-				x.className = "navbar";
-			}
-		}
-	</script>
+	<nav class="navbar">
+        <div class="brand-section">
+            <img src="https://ik.imagekit.io/guhoo/ABE-photos/abe-white-transparent-cropped" alt="Logo" class="logo">
+        </div>
+        <div class="toggle-button" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="navbar-links" id="navbar-links">
+            <ul>
+                <li><a href="../">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../updates.html" class="active">Updates</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <script src="../nav1.js"></script>
 
 
 	<div id="contents">
