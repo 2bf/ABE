@@ -1,3 +1,22 @@
+/* (A) FORCE ALL ITEMS INTO SINGLE ROW */
+.hmove { display: flex; }
+.hitem {width: 340px;
+	flex-shrink: 0;
+	font-size: large;
+}
+.hwrap { overflow: hidden; }
+ 
+/* (B) MOVE ITEMS FROM RIGHT TO LEFT */
+/* first item = 0, fourth item = -300% */
+@keyframes tickerh {
+  0% { transform: translatex(100%); }
+  100% { transform: translatex(-400%); }
+}
+.hmove { animation: tickerh linear 20s infinite; }
+.hmove:hover { animation-play-state: paused; }
+
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;

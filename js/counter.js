@@ -1,7 +1,7 @@
 // script.js
 let counter = document.getElementById('counter');
 let count = 0;
-let uniqueVisits = 414; // from google analytics
+let uniqueVisits = 414;
 
 let interval = setInterval(() => {
     count = count + 7;
