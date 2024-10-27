@@ -1,7 +1,7 @@
 // script.js
 let counter = document.getElementById('counter');
 let count = 0;
-let uniqueVisits = 463;
+let uniqueVisits = 477;
 
 let interval = setInterval(() => {
     count = count + 7;
